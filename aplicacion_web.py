@@ -20,7 +20,7 @@ if hist_button:
     fig = px.histogram(car_data, x="odometer")
 
     # mostrar run gráfico oPlotly interactivo
-    st.ploltly_chart(fig, use_container_width=True)
+    st.plotly_chart(fig, use_container_width=True)
 
 dis_button = st.button('Crear gráfico de dispersión')
 
